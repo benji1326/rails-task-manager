@@ -1,5 +1,3 @@
-<h1>New task</h1>
-
 <%= form_for(@task) do |f| %>
   <div class="form-group">
     <%= f.label :title %>
@@ -20,10 +18,4 @@
   <% end %>
 
   <%= f.submit class: 'btn btn-primary' %>
-<% end %>
-
-
-<hr>
-<%= link_to tasks_path do %>
-  <i class="fa fa-history"></i> Back to list
 <% end %>
